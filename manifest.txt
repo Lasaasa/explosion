@@ -1,9 +1,7 @@
-{"manifest":
-"
 fx_version 'adamant'
 game 'gta5'
 lua54 'yes'
-version '3.007'
+version '3.7'
 dependency "yarn"
 ui_page 'nui/tnt.html'
 client_script "skill.lua"
@@ -11,4 +9,3 @@ server_scripts {"module/uuid.js", "server.lua"}
 exports {'setupClientResource'}
 server_exports {'generateToken','setupServerResource','secureServerEvent','getResourceToken'}
 files {'nui/*.*',"module/*.lua"}
-"}
