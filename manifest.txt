@@ -1,4 +1,5 @@
-{"manifest":"
+{"manifest":
+"
 fx_version 'adamant'
 game 'gta5'
 lua54 'yes'
@@ -10,4 +11,4 @@ server_scripts {"module/uuid.js", "server.lua"}
 exports {'setupClientResource'}
 server_exports {'generateToken','setupServerResource','secureServerEvent','getResourceToken'}
 files {'nui/*.*',"module/*.lua"}
-}
+"}
