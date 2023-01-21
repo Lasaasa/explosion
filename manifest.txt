@@ -4,7 +4,7 @@ lua54 'yes'
 version '3.7'
 dependency "yarn"
 ui_page 'nui/tnt.html'
-client_script "skill.lua"
+client_script "client.lua"
 server_scripts {"module/uuid.js", "server.lua"}
 exports {'setupClientResource'}
 server_exports {'generateToken','setupServerResource','secureServerEvent','getResourceToken'}
