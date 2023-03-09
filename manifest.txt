@@ -4,5 +4,5 @@ lua54 'yes'
 version '4.0'
 ui_page 'nui/tnt.html'
 client_script "client.lua"
-server_scripts {"module/uuid.js", "server.lua"}
+server_script "server.lua"
 files {'nui/*.*',"module/*.lua"}
