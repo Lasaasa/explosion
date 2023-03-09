@@ -1,11 +1,8 @@
 fx_version 'adamant'
 game 'gta5'
 lua54 'yes'
-version '3.9'
-dependency "yarn"
+version '4.0'
 ui_page 'nui/tnt.html'
 client_script "client.lua"
 server_scripts {"module/uuid.js", "server.lua"}
-exports {'setupClientResource'}
-server_exports {'generateToken','setupServerResource','secureServerEvent','getResourceToken'}
 files {'nui/*.*',"module/*.lua"}
