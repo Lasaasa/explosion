@@ -1,0 +1,79 @@
+--[[
+
+      _______   __ __     __    ______     ______      _____  __ __      _____   _____     __   __    _____  __    ______    
+    /\_______)\/_/\__/\  /\_\  /_/\___\   /_/\___\   /\_____\/_/\__/\   /\ __/\ ) ___ (   /_/\ /\_\ /\_____\/\_\  /_/\___\   
+    \(___  __\/) ) ) ) ) \/_/  ) ) ___/   ) ) ___/  ( (_____/) ) ) ) )  ) )__\// /\_/\ \  ) ) \ ( (( (  ___/\/_/  ) ) ___/   
+      / / /   /_/ /_/_/   /\_\/_/ /  ___ /_/ /  ___  \ \__\ /_/ /_/_/  / / /  / /_/ (_\ \/_/   \ \_\\ \ \_   /\_\/_/ /  ___  
+     ( ( (    \ \ \ \ \  / / /\ \ \_/\__\\ \ \_/\__\ / /__/_\ \ \ \ \  \ \ \_ \ \ )_/ / /\ \ \   / // / /_\ / / /\ \ \_/\__\ 
+      \ \ \    )_) ) \ \( (_(  )_)  \/ _/ )_)  \/ _/( (_____\)_) ) \ \  ) )__/\\ \/_\/ /  )_) \ (_(/ /____/( (_(  )_)  \/ _/ 
+      /_/_/    \_\/ \_\/ \/_/  \_\____/   \_\____/   \/_____/\_\/ \_\/  \/___\/ )_____(   \_\/ \/_/\/_/     \/_/  \_\____/   
+                                                                                                                         
+                                                                                                                            
+]]
+
+
+TitanAC_Trigger = {}
+
+TitanAC_Trigger.LimitedTrigger = { 
+    Enable = false,
+    List = {
+        { trigger = "esx_pizza:pay", limit = 2, ban = false }
+    }
+}
+
+TitanAC_Trigger.BlacklistedTrigger = { 
+    Enable = false,
+    List = {
+        { trigger = "esx_pizza:pay", ban = false },
+        { trigger = "lester:vendita", ban = false },
+        { trigger = "esx:jackingcar", ban = false },
+        { trigger = "esx_spectate:kick", ban = false },
+        { trigger = "advancedFuel:setEssence", ban = false },
+        { trigger = "display", ban = false },
+        { trigger = ":tunnel_req", ban = false },
+        { trigger = "esx_mafiajob:confiscatePlayerItem", ban = false },
+        { trigger = "NB:recruterplayer", ban = false },
+    }
+}
+
+TitanAC_Trigger.AntiClientTrigger = { 
+    Enable = false,
+    List = {
+        { trigger = "esx_notify:send", ban = false },
+        { trigger = "esx_policejob:message", ban = false },
+    }
+}
+
+TitanAC_Trigger.FakeEvents = { --NEW
+    Enable = false,
+    List = {
+        { trigger = "revive:everyone" },
+        { trigger = "sell:inventory" },
+
+    }
+}
+
+TitanAC_Trigger.NegativeEvents = { --NEW
+    Enable = false,
+    List = {
+        { trigger = "revive:everyone" },
+        { trigger = "sell:inventory" },
+
+    }
+}
+
+TitanAC_Trigger.TriggerDistance = { 
+    Enable = false,
+    List = {
+        { trigger = "titan:anticheat", x = 100, y = 100, z = 100, distance = 5, ban = false}
+    }
+}
+
+TitanAC_Trigger.TriggerJob = { --(momentarily only for esx)
+    Enable = false,
+    List = {
+        { trigger = "esx_policejob:RequestArrest", job = "police", ban = false},
+        { trigger = "esx-qalle-jail:jailPlayer", job = "police", ban = false},
+        { trigger = "esx-qalle-jail:unJailPlayer", job = "police", ban = false},
+    }
+}
