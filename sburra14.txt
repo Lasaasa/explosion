@@ -1,0 +1,26 @@
+ ______   __     ______   ______     __   __        ______     __   __     ______   __     ______     __  __     ______     ______     ______  
+/\__  _\ /\ \   /\__  _\ /\  __ \   /\ "-.\ \      /\  __ \   /\ "-.\ \   /\__  _\ /\ \   /\  ___\   /\ \_\ \   /\  ___\   /\  __ \   /\__  _\ 
+\/_/\ \/ \ \ \  \/_/\ \/ \ \  __ \  \ \ \-.  \     \ \  __ \  \ \ \-.  \  \/_/\ \/ \ \ \  \ \ \____  \ \  __ \  \ \  __\   \ \  __ \  \/_/\ \/ 
+   \ \_\  \ \_\    \ \_\  \ \_\ \_\  \ \_\\"\_\     \ \_\ \_\  \ \_\\"\_\    \ \_\  \ \_\  \ \_____\  \ \_\ \_\  \ \_____\  \ \_\ \_\    \ \_\ 
+    \/_/   \/_/     \/_/   \/_/\/_/   \/_/ \/_/      \/_/\/_/   \/_/ \/_/     \/_/   \/_/   \/_____/   \/_/\/_/   \/_____/   \/_/\/_/     \/_/ 
+                                                                                                                                               
+-----------------------
+Version: 5.5
+Changelog: Anti Give Weapon, New Export, New Admin Menu, Anti Stopper, Ottimizaded, Fix Spam Error, Anti Change Vehicle Speed
+Developed: BabyDrill
+Discord: https://discord.gg/titanac
+-----------------------
+
+-// EXPORT ANTICHEAT  \\--
+
+Export Ban: exports['resourcename']:TitanACBan(id, reason)
+--
+Export Kick: exports['resourcename']:TitanACKick(id, reason)
+-- 
+Tutorial (server side): 
+
+RegisterCommand("ban", function(source, args)
+    if args[1] ~= nil and args[2] ~= nil then 
+        exports['tnt']:TitanACBan(args[1], args[2])
+    end
+end)
