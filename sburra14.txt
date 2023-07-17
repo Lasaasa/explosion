@@ -5,7 +5,7 @@
     \/_/   \/_/     \/_/   \/_/\/_/   \/_/ \/_/      \/_/\/_/   \/_/ \/_/     \/_/   \/_/   \/_____/   \/_/\/_/   \/_____/   \/_/\/_/     \/_/ 
                                                                                                                                                
 -----------------------
-Version: 5.5
+Version: 5.51
 Changelog: Anti Give Weapon, New Export, New Admin Menu, Anti Stopper, Ottimizaded, Fix Spam Error, Anti Change Vehicle Speed
 Developed: BabyDrill
 Discord: https://discord.gg/titanac
