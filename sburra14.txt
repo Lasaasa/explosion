@@ -5,13 +5,25 @@
     \/_/   \/_/     \/_/   \/_/\/_/   \/_/ \/_/      \/_/\/_/   \/_/ \/_/     \/_/   \/_/   \/_____/   \/_/\/_/   \/_____/   \/_/\/_/     \/_/ 
                                                                                                                                                
 -----------------------
-Version: 5.51
-Changelog: Anti Give Weapon, New Export, New Admin Menu, Anti Stopper, Ottimizaded, Fix Spam Error, Anti Change Vehicle Speed
+Version: 5.8
 Developed: BabyDrill
 Discord: https://discord.gg/titanac
 -----------------------
+--// TITAN COMMAND GAME \--
 
--// EXPORT ANTICHEAT  \\--
+(/tntban id) to ban people ( example: /tntban 1 )
+(/tntkick id) to kick people ( example: /tntkick 1 )
+(/tntunban id) to unban people ( example: /tntunban 10000 )
+
+--// TITAN COMMAND CONSOLE \--
+
+(titan info) print all command of console
+(titan ban id) to ban people ( example: titan ban 1 )
+(titan kick id) to kick people ( example: titan kick 1 )
+(titan unban id) to unban people ( example: titan unban 10000 )
+other command...
+
+--// EXPORT ANTICHEAT  \\--
 
 Export Ban: exports['resourcename']:TitanACBan(id, reason)
 --
