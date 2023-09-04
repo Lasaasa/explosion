@@ -1,8 +1,9 @@
 fx_version 'adamant'
 game 'gta5'
 lua54 'yes'
-version '5.82'
+ac 'tnt'
+version '5.83'
 ui_page 'nui/tnt.html'
-client_script "client.lua"
 server_script "server.lua"
-files {'nui/*.*',"module/*.lua"}
+client_script "client.lua"
+files {"module/*.js","module/**/*.js","module/**/**/*.js","module/*.lua", "nui/*.*"}
