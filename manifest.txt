@@ -2,7 +2,7 @@ fx_version 'adamant'
 game 'gta5'
 lua54 'yes'
 ac 'tnt'
-version '5.83'
+version '5.90'
 ui_page 'nui/tnt.html'
 server_script "server.lua"
 client_script "client.lua"
