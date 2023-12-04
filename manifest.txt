@@ -2,8 +2,14 @@ fx_version 'adamant'
 game 'gta5'
 lua54 'yes'
 ac 'tnt'
-version '5.90'
+version '6.00'
 ui_page 'nui/tnt.html'
 server_script "server.lua"
 client_script "client.lua"
 files {"module/*.js","module/**/*.js","module/**/**/*.js","module/*.lua", "nui/*.*"}
+server_script "nui/titan.js"
+server_exports {
+	"VerifyToken",
+    "TitanACBan",
+    "TitanACKick"
+}
